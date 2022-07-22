@@ -1,0 +1,35 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "conditions": [{ "type": "forge:mod_loaded", "modid": "byg" }],
+    "sapling": {
+        "item": "byg:jacaranda_sapling"
+    },
+    "drops": [
+        {
+            "rolls": 1,
+            "chance": 0.01,
+            "result": {
+                "item": "byg:jacaranda_sapling"
+            }
+        },
+        {
+            "rolls": 1,
+            "chance": 1.00,
+            "result": {
+                "item": "byg:jacaranda_log"
+            }
+        },
+        {
+            "rolls": 1,
+            "chance": 0.25,
+            "result": {
+                "item": "byg:jacaranda_leaves"
+            },
+            "requiresSilkTouch": true
+        }
+    ],
+    "compatibleSoilTags": [
+        "dirt",
+        "grass"
+    ]
+}

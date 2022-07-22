@@ -1,0 +1,14 @@
+{
+  "type": "bonsaitrees3:soil",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "farmersdelight" }],
+  "tickModifier": 0.7,
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "compatibleSoilTags": [
+    "dirt"
+  ],
+  "display": {
+    "block": "farmersdelight:rich_soil"
+  }
+}

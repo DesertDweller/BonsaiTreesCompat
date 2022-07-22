@@ -1,0 +1,14 @@
+{
+  "type": "bonsaitrees3:soil",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "byg" }],
+  "tickModifier": 0.8,
+  "soil": {
+    "item": "byg:peat"
+  },
+  "compatibleSoilTags": [
+    "dirt"
+  ],
+  "display": {
+    "block": "byg:peat"
+  }
+}

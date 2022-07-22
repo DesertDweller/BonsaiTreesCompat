@@ -1,0 +1,35 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "conditions": [{ "type": "forge:mod_loaded", "modid": "byg" }],
+    "sapling": {
+        "item": "byg:fir_sapling"
+    },
+    "drops": [
+        {
+            "rolls": 1,
+            "chance": 0.01,
+            "result": {
+                "item": "byg:fir_sapling"
+            }
+        },
+        {
+            "rolls": 1,
+            "chance": 1.00,
+            "result": {
+                "item": "byg:fir_log"
+            }
+        },
+        {
+            "rolls": 1,
+            "chance": 0.25,
+            "result": {
+                "item": "byg:fir_leaves"
+            },
+            "requiresSilkTouch": true
+        }
+    ],
+    "compatibleSoilTags": [
+        "dirt",
+        "grass"
+    ]
+}

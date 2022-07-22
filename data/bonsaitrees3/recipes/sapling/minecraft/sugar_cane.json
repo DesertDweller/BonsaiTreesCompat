@@ -1,0 +1,22 @@
+{
+  "type": "bonsaitrees3:sapling",
+  "mod": "minecraft",
+  "sapling": {
+    "item": "minecraft:sugar_cane"
+  },
+  "drops": [
+    {
+      "rolls": 1,
+      "chance": 100.0,
+      "result": {
+        "item": "minecraft:sugar_cane"
+      }
+    }
+  ],
+  "compatibleSoilTags": [
+    "sand",
+	"dirt",
+	"grass"
+  ],
+  "ticks": 300
+}
